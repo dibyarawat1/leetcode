@@ -1,5 +1,8 @@
-class Solution {
-public:
+#include<iostream>
+#include<string>
+using namespace std;
+class solution{
+    public:
     int minOperations(string s){
          if(s.size()==1){
             return 0;
@@ -16,9 +19,15 @@ public:
             }
         }
 }
-if(count<((s.size())-count)){
+if(count < ((s.size())-count)){
     return count;
     }
     return s.size()-count;
 }
 };
+int main(){
+    string s;
+    cin>>s;
+    solution myobj;
+  cout<<myobj.minOperations(s)<<endl;
+}
