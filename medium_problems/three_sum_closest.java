@@ -33,6 +33,7 @@ public class three_sum_closest{
         return resultSum;
     }
 }
+
 public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
@@ -43,5 +44,6 @@ public static void main(String[] args){
     }
     Solution obj  = new Solution();
     System.out.println(obj.threeSumClosest(nums , target));
+    sc.close();
 }
 }
