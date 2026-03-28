@@ -27,5 +27,6 @@ public static void main(String[] args){
     }
     Solution myobj = new Solution();
      System.out.println( myobj.containsDuplicate(nums));
+     sc.close();
 }
 }
