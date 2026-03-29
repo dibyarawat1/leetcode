@@ -25,6 +25,7 @@ public class problem_50 {
            }
            Solution myobj = new Solution();
            System.out.println(myobj.maxSubArray(nums));
+           sc.close();
         }
     }
 

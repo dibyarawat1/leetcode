@@ -38,5 +38,6 @@ public static void main(String[] args){
     int target = sc.nextInt();
     Solution obj = new Solution();
     System.out.println(obj.search(nums , target));
+    sc.close();
 }
 }

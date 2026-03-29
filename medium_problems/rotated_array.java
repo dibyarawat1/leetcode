@@ -34,6 +34,7 @@ public static void main(String[] args){
         nums[i] = sc.nextInt();
     }
     Solution myobj = new Solution();
+    myobj.rotate(nums ,  k);
    sc.close();
 }
 }
