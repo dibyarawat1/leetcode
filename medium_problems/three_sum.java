@@ -37,7 +37,6 @@ public static void main(String[] args){
         num[i]  = sc.nextInt();
     }
     Solution myobj = new Solution();
-    ArrayList<List<Integer>> result = new ArrayList<>();
     System.out.println(myobj.threeSum(num));
     sc.close();
 }
