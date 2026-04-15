@@ -1,4 +1,4 @@
-class Solution {
+class merge_sorted_arrays{
     public void merge(int[] n1, int m, int[] n2, int n) {
        int left = m+n -1 ; 
        int right = n-1;
