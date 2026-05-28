@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.*;
 public class contains_duplicates {
    static class Solution {
