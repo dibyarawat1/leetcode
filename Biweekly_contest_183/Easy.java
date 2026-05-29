@@ -1,4 +1,4 @@
-public class _easy {
+public class Easy {
 //   3936. Minimum Swaps to Move Zeros to End
     static int minimumSwaps(int[] arr){
         int  i = 0;
