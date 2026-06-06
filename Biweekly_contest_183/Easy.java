@@ -1,5 +1,5 @@
-public class Easy {
 //   3936. Minimum Swaps to Move Zeros to End
+public class Easy {
     static int minimumSwaps(int[] arr){
         int  i = 0;
         int  j = arr.length -1;
