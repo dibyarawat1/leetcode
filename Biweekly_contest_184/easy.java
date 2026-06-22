@@ -1,5 +1,3 @@
-//  Exactly One Consecutive Set Bits 
-
 public class easy {
  public boolean consecutiveSetBits(int n) {
         int[] nums = new int[32];
@@ -23,3 +21,4 @@ public class easy {
         return false;
     }
 }
+//  Exactly One Consecutive Set Bits 

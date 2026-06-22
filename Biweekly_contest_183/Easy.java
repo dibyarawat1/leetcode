@@ -1,4 +1,3 @@
-//   3936. Minimum Swaps to Move Zeros to End
 public class Easy {
     static int minimumSwaps(int[] arr){
         int  i = 0;
@@ -18,4 +17,4 @@ public class Easy {
         return count;
     }
     }
-
+//   3936. Minimum Swaps to Move Zeros to End
