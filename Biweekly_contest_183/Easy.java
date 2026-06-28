@@ -1,4 +1,6 @@
-public class Easy {
+import java.util.*;
+
+public class Easy{
     static int minimumSwaps(int[] arr){
         int  i = 0;
         int  j = arr.length -1;

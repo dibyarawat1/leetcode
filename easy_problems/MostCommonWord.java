@@ -1,4 +1,4 @@
-public class mostCommonWord{
+public class MostCommonWord{
       public String mostCommonWord(String paragraph, String[] banned){
         String s ="";
         int max = Integer.MIN_VALUE;

@@ -17,6 +17,7 @@ class Solution {
             divid -= temp;
             quo -= mul;
         }
-        return isNeg ? -quo : quo;
+         return  isNeg ? -quo : quo;
+
     }
 }
