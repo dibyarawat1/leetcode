@@ -1,6 +1,6 @@
 package weekly_contest_512;
 
-import java.util.*;
+// import java.util.*;
  public class Easy_A{
        public int largestInteger(int n , int s){
         // where n is the number of the digits and s is the sum of the digits.
