@@ -1,6 +1,6 @@
 package Biweekly_contest_194;
 
-import java.util.*;
+
 
 public class Question_1 {
     public static void main(String[] args){
