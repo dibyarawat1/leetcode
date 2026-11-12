@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+ public class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         if(nums.length < 4){
             return new ArrayList<>();

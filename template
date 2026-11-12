@@ -1,0 +1,30 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        // Initialize BufferedReader
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        
+        // Read a line with space-separated tokens
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        
+        // Parsing single primitives
+        int n = Integer.parseInt(st.nextToken()); // Read next integer
+        long k = Long.parseLong(st.nextToken());   // Read next long
+        
+        // Reading an array of N integers across one or multiple lines
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            // Fetch next token; if line ends, read a new line
+            while (st == null || !st.hasMoreTokens()) {
+                st = new StringTokenizer(br.readLine());
+            }
+            arr[i] = Integer.parseInt(st.nextToken());
+        }
+        
+        // Your logic here...
+    }
+}
